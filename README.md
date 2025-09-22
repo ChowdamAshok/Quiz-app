@@ -59,8 +59,8 @@ quiz-app/
 
 
 🧑‍💻 Author
-**
-Chowdam Ashok**
+
+**Chowdam Ashok**
 
 🔗 GitHub | ✉️ cvashok124@gmail.com
 
