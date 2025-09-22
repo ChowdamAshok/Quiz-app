@@ -2,8 +2,8 @@
 
 > A fully responsive, animated, and feature-rich quiz application built with **HTML, CSS, and Vanilla JavaScript** — perfect for your portfolio or resume!
 
-![Quiz App Screenshot](https://via.placeholder.com/800x400/667eea/ffffff?text=Quiz+App+Preview)  
-*(Replace with actual screenshot when you deploy!)*
+<img width="1913" height="962" alt="Screenshot 2025-09-22 221525" src="https://github.com/user-attachments/assets/6cd0d8f4-0bd2-4932-acf7-3ebdd0d7956b" />
+
 
 ---
 
@@ -39,9 +39,24 @@
 
 ## 🚀 Live Demo
 
-👉 [https://yourusername.github.io/quiz-app](https://yourusername.github.io/quiz-app)  
+👉 [https://yourusername.github.io/quiz-app](https://chowdamashok.github.io/Quiz-app/)
 *(Update this after deploying to GitHub Pages!)*
 
 ---
 
 ## 📁 Project Structure
+quiz-app/
+├── index.html # Main HTML structure
+├── style.css # All styles + dark mode
+├── script.js # Core logic, animations, localStorage
+└── README.md # You are here!
+
+---
+
+
+🧑‍💻 Author
+Chowdam Ashok
+🔗 GitHub | ✉️ cvashok124@gmail.com
+
+📜 License
+MIT License — Use it, share it, build on it! 🚀
