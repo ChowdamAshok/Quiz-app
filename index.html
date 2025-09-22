@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body class="light-theme">
+    <!-- ✅ Dark Mode Toggle (Top Right) -->
+    <button id="theme-toggle" class="theme-toggle">🌙</button>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen active">
+        <div class="container">
+            <h1>🎓 Quiz Challenge</h1>
+            <form id="user-form">
+                <input type="text" id="name" placeholder="Enter your name" required />
+                <input type="email" id="email" placeholder="Enter your email" required />
+                <button type="submit">Start Quiz</button>
+            </form>
+            <!-- ✅ Show Top Scores -->
+            <div id="top-scores" class="top-scores"></div>
+        </div>
+    </div>
+
+    <!-- Instructions Screen -->
+    <div id="instructions-screen" class="screen">
+        <div class="container">
+            <h2>📝 Instructions</h2>
+            <ul>
+                <li>There are 10 questions. Each carries 2 marks.</li>
+                <li>Time limit: 5 minutes.</li>
+                <li>Choose one option per question.</li>
+                <li>Click "Next" to proceed. Last question has "Submit".</li>
+            </ul>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="screen">
+        <div class="quiz-header">
+            <div class="timer">⏰ <span id="timer">05:00</span></div>
+            <div class="question-counter">❓ <span id="current-q">1</span>/10</div>
+        </div>
+        <div class="quiz-container">
+            <div id="question-box" class="question-box"></div>
+            <div id="options-box" class="options-box"></div>
+            <button id="next-btn" class="btn">Next Question</button>
+            <button id="submit-btn" class="btn hidden">Submit Quiz</button>
+        </div>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" class="screen">
+        <div class="container result-container">
+            <h2>🎉 Quiz Completed!</h2>
+            <div class="score-circle" id="score-circle">
+                <div class="score-text" id="final-score">0/20</div>
+            </div>
+            <p id="user-name"></p>
+            <div id="leaderboard" class="leaderboard"></div>
+            <button id="view-answers-btn" class="btn">View Answers</button>
+            <button id="go-home-btn" class="btn">Go to Home</button>
+        </div>
+    </div>
+
+    <!-- Answers Modal -->
+    <div id="answers-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Your Answers vs Correct Answers</h3>
+            <div id="answers-list"></div>
+            <button id="close-modal-btn" class="btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
