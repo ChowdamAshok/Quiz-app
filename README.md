@@ -40,22 +40,28 @@
 ## 🚀 Live Demo
 
 👉 [https://yourusername.github.io/quiz-app](https://chowdamashok.github.io/Quiz-app/)
-*(Update this after deploying to GitHub Pages!)*
+
 
 ---
 
 ## 📁 Project Structure
 quiz-app/
+
 ├── index.html # Main HTML structure
+
 ├── style.css # All styles + dark mode
+
 ├── script.js # Core logic, animations, localStorage
+
 └── README.md # You are here!
 
 ---
 
 
 🧑‍💻 Author
-Chowdam Ashok
+**
+Chowdam Ashok**
+
 🔗 GitHub | ✉️ cvashok124@gmail.com
 
 📜 License
