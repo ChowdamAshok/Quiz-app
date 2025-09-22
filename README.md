@@ -57,12 +57,14 @@ quiz-app/
 
 ---
 
+## 📫 Contact Me
+Feel free to connect or collaborate:
 
-🧑‍💻 Author
+💼 **[LinkedIn](https://www.linkedin.com/in/chowdam-ashok-011806294)**
 
-**Chowdam Ashok**
+💻 **[GitHub](https://github.com/ChowdamAshok)**
 
-🔗 GitHub | ✉️ cvashok124@gmail.com
+📧 Email: cvashok124@gmail.com
 
 📜 License
 MIT License — Use it, share it, build on it! 🚀
