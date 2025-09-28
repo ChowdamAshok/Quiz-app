@@ -39,7 +39,7 @@
 
 ## 🚀 Live Demo
 
-👉 [https://yourusername.github.io/quiz-app](https://chowdamashok.github.io/Quiz-app/)
+👉 [https://chowdamashok.github.io/quiz-app](https://chowdamashok.github.io/Quiz-app/)
 
 
 ---
